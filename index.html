@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Intermediário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h2>aula de input text</h2>
+
+        <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+        <input type="text" name="email" id="email" placeholder="Digite seu email">
+
+        <h2>aula input number, password e submit</h2>
+
+        <label for="numero">numero</label>
+        <input type="number" id="numero"><br><br>
+        <label for="senha">password</label>
+        <input type="password" id="senha"><br><br>
+        <input type="submit" value="Enviar">
+
+        <h2>aula checkbox e radio</h2>
+        <h3>linguagens de programação</h3>
+
+        <label for="c#">c#</label>
+        <input id="c#" type="checkbox" name="linguagens"><br>
+        <label for="javascript">javascript</label>
+        <input id="javascript" type="checkbox" name="linguagens"><br><br>
+
+        <h3>genero</h3>
+
+        <label for="masculino">masculino</label>
+        <input id="masculino" type="radio" name="genero">
+
+        <label for="feminino">feminino</label>
+        <input id="feminino" type="radio" name="genero">
+
+        <h2>aula de select</h2>
+
+        <label id="Filmes" for="Filmes">Filmes</label>
+        <select name="Filmes">
+            <option value="">Selecione um Filme</option>
+            <option value="senhor dos aneis">senhor dos aneis</option>
+            <option value="mad max">mad max</option>
+            <option value="harry potter">harry potter</option>
+            <option value="vingadores">vingadores</option>
+        </select>
+
+        <h2>aula de textarea</h2>
+
+        <textarea name="texto" cols="30" rows="10"></textarea>
+
+        <h2>aula de button</h2>
+
+        <button onclick="alert('Clicado')">Botão tag Button</button><br><br>
+        <input type="button" value="Botão tag Input" onclick="alert('Clicado')">
+
+        <h2>aula de tags semanticas</h2>
+
+        <header>
+            <h1>Tags semânticas</h1>
+
+
+            <nav>
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/sobre">Sobre</a></li>
+                    <li><a href="/portfolio">Potfólio</a></li>
+                    <li><a href="/contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Módulo HTML intermediário</h2>
+                <figure>
+                    <img src="logo.html.jpg">
+                    <figcaption>Esse é o logo do HTML</figcaption>
+                </figure>
+                <p>esse módulo é sobre HTML intermediário</p>
+            </section>
+            
+            <article>
+                <h2>C#</h2>
+                <p>O c# é muito legal</p>
+                
+                <h2>javascript</h2>
+                <p>javascript é uma linguagem de programação frontend e backend com node.js</p>
+            </article>
+
+            <aside>
+
+            </aside>
+        </main>
+
+        <footer>
+            <address>
+                <a href="https://github.com/Exuspery" target="_blank">github</a>
+            </address>
+        </footer>
+</body>
+</html>
